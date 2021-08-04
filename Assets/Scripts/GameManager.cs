@@ -7,9 +7,12 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public Text CountText;
+    public Text TimerText;
+    public Text ResultText;
     public GameObject ClearText;
     public int appleCount = 5;
     private string _sceneName;
+    private float _time = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +26,14 @@ public class GameManager : MonoBehaviour
         CountText.text = appleCount.ToString();
         if (appleCount <= 0)
         {
+            // クリア処理
+            ResultText.text = "クリアタイム　" + _time.ToString("F1") + "びょう！";
             ClearText.SetActive(true);
             StartCoroutine(Restart());  // コルーチンで2秒待ってからリスタート
+        } else
+        {
+            _time += Time.deltaTime;
+            TimerText.text = "タイム　" + _time.ToString("F1") + "びょう";
         }
     }
 
