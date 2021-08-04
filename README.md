@@ -5,8 +5,11 @@
 ## 題材
 「ナビつき！ つくってわかる　はじめてゲームプログラミング」
 
+<img src="https://user-images.githubusercontent.com/40447362/128122388-736af07b-3464-4770-a475-42cf17d7425f.png" width=640></img>
+
 🔗https://www.nintendo.co.jp/switch/awuxa/
 
+「コロコロボール」
 
 🔗https://www.youtube.com/watch?v=N9SvKfrmwUw&t=119s
 
