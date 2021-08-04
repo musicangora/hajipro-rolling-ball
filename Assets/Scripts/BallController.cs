@@ -6,6 +6,7 @@ public class BallController : MonoBehaviour
 {
     // 移動量調整用パラメータ
     public float force = 1.0f;
+    public GameObject StartObject;
     private Rigidbody _rb;
     private Vector3 _forceVector = new Vector3();
     void Start()
@@ -34,5 +35,15 @@ public class BallController : MonoBehaviour
     {
         // 移動処理
         _rb.AddForce(force * _forceVector);
+    }
+
+    void OnTriggerEnter(Collider collider)
+    {
+        if (collider.tag=="Warp")
+        {
+            gameObject.SetActive(false);
+            gameObject.transform.position = StartObject.transform.position;
+            gameObject.SetActive(true);
+        }
     }
 }
