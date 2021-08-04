@@ -3,19 +3,19 @@
 [![Image from Gyazo](https://i.gyazo.com/d3a2489cf39bb791666d88fb31f93dd9.gif)](https://gyazo.com/d3a2489cf39bb791666d88fb31f93dd9)
 
 ## 題材
-「ナビつき！ つくってわかる　はじめてゲームプログラミング」
-
-<img src="https://user-images.githubusercontent.com/40447362/128122388-736af07b-3464-4770-a475-42cf17d7425f.png" width=640></img>
+### 「ナビつき！ つくってわかる　はじめてゲームプログラミング」
+<img src="https://user-images.githubusercontent.com/40447362/128122388-736af07b-3464-4770-a475-42cf17d7425f.png" width=640>
 
 🔗https://www.nintendo.co.jp/switch/awuxa/
 
-「コロコロボール」
+### 「コロコロボール」
+<img width="640" src="https://user-images.githubusercontent.com/40447362/128122638-9fd60413-f605-477e-8323-1ecde808e7d5.png">
 
 🔗https://www.youtube.com/watch?v=N9SvKfrmwUw&t=119s
 
 ## 動機
 
-はじプロの玉転がしゲーム、シンプルで楽しくて作るのが比較的簡単。これを題材にほぼ同じものをUnityで作るにはどのくらいかかるか、力試し
+はじプロの玉転がしゲーム、シンプルで楽しくて作るのが比較的簡単。これを題材にほぼ同じものをUnityで作るにはどのくらいかかるか、力試ししてみた。
 
 
 
@@ -99,3 +99,10 @@
 - 見た目の調整
   - 床のグラフィク
 - BGMの追加
+
+
+## 結果
+ステップ1〜7までは__5時間程度__で完成した。ただ、ステップ7まででは、まだまだゲームとして物足りないため、さらなる工夫をしたいところ。
+
+例えば、全部りんごを取得するのにどのくらいの時間がかかるか、タイムアタック機能を追加したり、そのタイムのハイスコアを保存する機能、結果のTwitter共有機能、タイトルシーンとリザルトシーンの追加、
+
