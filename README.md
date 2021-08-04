@@ -1,5 +1,5 @@
 # Unityゲーム制作RTA 〜はじプロ「コロコロボール」クローン〜
-
+## 制作結果(5時間程度)
 [![Image from Gyazo](https://i.gyazo.com/d3a2489cf39bb791666d88fb31f93dd9.gif)](https://gyazo.com/d3a2489cf39bb791666d88fb31f93dd9)
 
 ## 題材
